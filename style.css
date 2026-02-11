@@ -99,3 +99,88 @@ main {
     height: 200px;
 }
 /* ------------------------------------- */
+
+/* FOOTER - TELA DE GERÊNCIA */
+footer {
+    display: flex;
+    background-color: var(--primary-color);
+    align-items: center;
+    padding: var(--default-padding);
+    width: 100vw;
+    height: 16.9%;
+    color: var(--secondary-color);
+    justify-content: space-between;
+}
+/* ------------------------------------- */
+.contato {
+    display: flex;
+    flex-direction: column;
+    font-size: 16;
+    align-items: start;
+    gap: 20px;
+}
+/* ------------------------------------- */
+.phone {
+    display: flex;
+    height: 20px;
+    align-items: center;
+    gap: 10px;
+}
+.email {
+    display: flex;
+    height: 20px;
+    align-items: center;
+    gap: 10px;
+}
+.localizacao {
+    display: flex;
+    height: 20px;
+    align-items: center;
+    gap: 10px;
+}
+/* ------------------------------------- */
+.criador{
+    display: flex;
+    font-size: 20px;
+}
+/* ------------------------------------- */
+.redes {
+    display: flex;
+    gap: 20px;
+}
+.youtube {
+    display: flex;
+    border: #FFFFFF, solid;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+.twitter {
+    display: flex;
+    border: #FFFFFF, solid;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+.instagram {
+    display: flex;
+    border: #FFFFFF, solid;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+.facebook {
+    display: flex;
+    border: #FFFFFF, solid;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
