@@ -1,3 +1,4 @@
+/* Configurações Iniciais */
 * {
     padding: 0;
     margin: 0;
@@ -14,20 +15,24 @@ ul, ol, li{
     --primary-color: #3347B0;
     --secondary-color: #FFFFFF;
     /* --default-shadow: 0 4px 4px #0004; */
-    /* --default-padding: 0px 80px; */
+    --default-padding: 0px 96px;
 }
 body {
     width: 100vw;
     height: 100vh;
 }
+
+/* HEADER - TELA DE GERÊNCIA */
+
 header {
     display: flex;
     height: 100px;
     background-color: var(--primary-color);
     justify-content: space-between;
-    padding: 0px 96px;
-    color: #FFFFFF
+    color: #FFFFFF;
+    padding: var(--default-padding);
 }
+/* ------------------------------------- */
 .logo {
     display: flex;
     gap: 11px;
@@ -38,9 +43,59 @@ header {
     display: block;
     width: 70px;
 }
+/* ------------------------------------- */
 .sair {
     display: flex;
     gap: 12px;
     align-items: center;
     font-size: 36px;
 }
+
+/* MAIN - TELA DE GERÊNCIA */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px;
+}
+/* ------------------------------------- */
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+
+}
+.titulo p {
+    display: block;
+    font-size: 58px;
+    width: 450px;
+}
+.titulo p span {
+    color: var(--primary-color);
+}
+/* ------------------------------------- */
+.studant img{
+    display: flex;
+}
+/* ------------------------------------- */
+.gerenciador {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+}
+.gerenciador button{
+    display: flex;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    font-size: 64px;
+    width: 400px;
+    height: 200px;
+}
+/* ------------------------------------- */
